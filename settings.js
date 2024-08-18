@@ -20,7 +20,7 @@ function convertToBool(text, fault = 'true') {
 
 global.thumb = fs.readFileSync('./lib/bugs/XByte.png') //Don't change
 //////////////////////////////////////////////////////////
-const BOTNAME = 'X - B Y T E'; //BOT name
+const BOTNAME = 'X - hacker'; //BOT name
 //////////////////////////////////////////////////////////
 const FOOTERNAME = '*Powered by TalkDrove*'; //Footer text
 
@@ -37,7 +37,7 @@ const FOOTERNAME = '*Powered by TalkDrove*'; //Footer text
 //----------------OWNER NUMBER------------------------------//
 //////////////////////////////////////////////////////////////////
 
-global.owner = process.env.OWNER_NUMBER  || '923072380380' ;  //put your number without +
+global.owner = process.env.OWNER_NUMBER  || '233533230608' ;  //put your number without +
 
 /////////////////////////////////////////////////////////////////
 //-------------------------------------------------------//
@@ -59,7 +59,7 @@ module.exports = { //exporting modules to use in plugins
 //----------------Session ID------------------------------//
 //////////////////////////////////////////////////////////////////
 
-SESSION_ID: process.env.SESSION_ID || '', //Paste your session ID here
+SESSION_ID: process.env.SESSION_ID || 'Byte;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiT1AwclVVTWIxd0greTRhMHl4Q1Z3a3BHUWtwRGRPTW9wNSt5WTRvYVBGND0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoibzdBUldoOGZwWFdubWdIZklqMzdmTjJsWjZNcExpLzJUS0FiMDZKTEJ3RT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI4S2VkWHNZN1hpZThubXoyMy9sTDBrSnNicEo4ZzMzLzhoV3h1WHcxeVVvPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJQQ0lRYTRuTFUzYXNRNVppbVBSd1NMamd5Szg5MExmVFBjMmhRanJ0ZmhBPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkNFUEIvN203Sm5jbXZCRzQvWGM2cEhIVUFzSjBrWFI0Z1F4MG1zcnZFMkk9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InUxWTNJcHV1S0t1NkprTjF6T21IMjY5ajRSQno1VGVpSGpNRGxQd0Vod0E9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZU5HTFRUR3BFdGlGOXc4WVdYVWFFaTc1UEtWbUk3NkRkNFl2WDllbk0zWT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZmlBOFZyQjQ3UzZhdS94em1aTndYWkcxcXNzWldzeEkwZjFMUTl0engyTT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImMxQksvemlraWR5TzYzVndrOFM3Q1RFV3ZyK2dIanMzVUgrOUV4d3owNjE2Mnd2T25ObUUrSGVET1hZZUhzUGZlOHBwN2dKd1ZiZEpJSUdKMllrUURnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjEsImFkdlNlY3JldEtleSI6Inc0a1JLYWplcU56RWNxMGtGcFJ3TFV6a0QvVExqci9YY1luVWErU01CWDQ9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IjhLbWVYU19tU3VXRHJpNzlzN3NZRUEiLCJwaG9uZUlkIjoiOGMxMTU4M2ItYmU0MS00OWYyLWE5NzQtZGViMzA1Nzk0MWIxIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InFqWnBhNXZEcHRnUkpKVDIvZDBzd1FhZEpSZz0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJXRmtFWG85azJWNXJaT29oSXVqcDRwSThiWnc9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiRktFVzE1NUoiLCJtZSI6eyJpZCI6IjIzMzUzMzIzMDYwODozN0BzLndoYXRzYXBwLm5ldCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDTkhEdE1VR0VPdU9pTFlHR0FFZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiZUdlbjN1V3JCWWd5REhDRVc0ZTVaZ3RlTGMyaGRsQlhXRTVkL2tHd3l3RT0iLCJhY2NvdW50U2lnbmF0dXJlIjoiaTFkRHk3dzY4Ylh4SzV4aThMbDdVcHM4MzkvMWRUUTA5V2tvSjJUQzEzMW1VVjRYVFc2aEl6Ym5KYVRFSVZreFlZQnlTY3BvL2VHY0Fob2dNNUdHQ1E9PSIsImRldmljZVNpZ25hdHVyZSI6IlROYkI5N1hFOFlXQzh5N3VSaG5WWTlSakszeGpvQkIwZXFwN05RcGY2YXQ5WVVmd3kxeDZVeGdWNS9TRWN2QUdKdlBuMWswcUk0VzZZQzNBa0NrVEFRPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjMzNTMzMjMwNjA4OjM3QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlhobnA5N2xxd1dJTWd4d2hGdUh1V1lMWGkzTm9YWlFWMWhPWGY1QnNNc0IifX1dLCJwbGF0Zm9ybSI6ImlwaG9uZSIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcyMzk5MTkyOH0=', //Paste your session ID here
 
 /////////////////////////////////////////////////////////////////
 //-------------------------------------------------------//
@@ -104,7 +104,7 @@ MODERATORS : process.env.MODERATORS === undefined ? "923072380380" : process.env
 MAX_SIZE: process.env.MAX_SIZE === undefined ? '1536': process.env.MAX_SIZE, //Maximum size that bot can download a file   
 //////////////////////////////////////////////////////////
 
-OWNER_NAME: process.env.OWNER_NAME || 'Hamza' , //Your name
+OWNER_NAME: Ernest .env.OWNER_NAME || 'Hamza' , //Your name
 //////////////////////////////////////////////////////////
 
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://db_7xp9_user:6hwmTN7rGPNsjlBEHyX49CXwrG7cDeYi@dpg-cj7ldu5jeehc73b2p7g0-a.oregon-postgres.render.com/db_7xp9" : "postgres://db_7xp9_user:6hwmTN7rGPNsjlBEHyX49CXwrG7cDeYi@dpg-cj7ldu5jeehc73b2p7g0-a.oregon-postgres.render.com/db_7xp9' : process.env.POSTGRESQL_URL,
